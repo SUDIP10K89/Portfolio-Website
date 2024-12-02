@@ -1,3 +1,21 @@
+//Navigation
+
+    // Toggle Mobile Menu
+    function toggleMenu() {
+        const navbarMenu = document.querySelector('.navbar ul');
+        navbarMenu.classList.toggle('active');
+      }
+  
+      // Sticky Navbar Change on Scroll
+      const navbar = document.querySelector('.navbar');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      });
+
 
 // IntersectionObserver to detect when section is in view
 const observerOptions = {
