@@ -21,7 +21,7 @@
 const observerOptions = {
     root: null, // observing relative to the viewport
     rootMargin: "0px",
-    threshold: 0.3// trigger when 20% of the element is visible
+    threshold: 0.2// trigger when 20% of the element is visible
 };
 
 const sectionsToReveal = document.querySelectorAll('.reveal');
