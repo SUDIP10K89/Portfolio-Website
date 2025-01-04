@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sudip Shrestha - Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
   </head>
   <body>
     <div class="custom-cursor"></div>
@@ -31,7 +34,7 @@
       </section>
       <section id="about" class="reveal">
         <h2>About Me</h2>
-        <p>
+        <p >
           Hi, I'm Sudip Shrestha, a passionate full stack developer from Nepal.
           I specialize in building web solutions that are not only functional
           but also impactful. Currently pursuing Computer Science, I aim to
@@ -44,15 +47,15 @@
         </p>
         <h3>Skills</h3>
         <div class="skills">
-          <div class="skill">
+          <div class="skill" data-aos="zoom-in-right" >
             <h4>Frontend</h4>
             <p>HTML, CSS, JavaScript, React</p>
           </div>
-          <div class="skill">
+          <div class="skill" data-aos="zoom-in-right">
             <h4>Backend</h4>
             <p>Node.js, Express</p>
           </div>
-          <div class="skill">
+          <div class="skill" data-aos="zoom-in-right">
             <h4>Databases</h4>
             <p>MongoDB</p>
           </div>
@@ -62,7 +65,7 @@
         <h2>Projects</h2>
         <p>Here are some of the web solutions I've built:</p>
         <div class="project-list">
-          <div class="project">
+          <div class="project" data-aos="zoom-in-right">
             <h3>Letstalk - A chat app</h3>
             <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdbzyyBvfRxynTiWI2mK7nT1-zMMIKrwqUgA&s"
@@ -77,7 +80,7 @@
             >View Project</a
             >
           </div>
-          <div class="project">
+          <div class="project" data-aos="zoom-in-right">
             <h3>Blog App</h3>
             <img
             src="https://assets.ycodeapp.com/assets/app18525/images/mWXHGcVruinI8qMymgTZRPI6PQUs6B4rrFSSekMm-published.webp"
@@ -91,7 +94,7 @@
             >
           </div>
 
-          <div class="project">
+          <div class="project" data-aos="zoom-in-right">
             <h3>Spotify Clone</h3>
             <img
               src="https://i.pcmag.com/imagery/reviews/042FW7hC9vrGnoDea9LArXI-35.fit_scale.size_760x427.v1674253030.png"
@@ -108,7 +111,7 @@
               >View Project</a
             >
           </div>
-          <div class="project">
+          <div class="project" data-aos="zoom-in-right">
             <h3>To do app</h3>
             <img
               src="https://images.squarespace-cdn.com/content/v1/64236014406b577a88f99b3a/2b721232-76f6-42db-b083-a4417e32f70a/microsoft-to-do-feature.jpeg"
@@ -189,5 +192,8 @@
       <p>&copy; 2024 Sudip Shrestha. All rights reserved.</p>
     </footer>
     <script src="./assets/js/script.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
